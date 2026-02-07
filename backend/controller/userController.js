@@ -1,6 +1,4 @@
 import {userModel} from './../model/userModel.js';
-// import { Register } from './../../frontend/pro/src/pages/Register';
-// import { useNavigate } from 'react-router-dom';
 
 export const loginUser = async (req,res) =>{
 
@@ -62,17 +60,3 @@ export const registerUser = async (req,res) =>{
 }
 
 
-// export const postStudent = async(req,res)=>{
-
-//     try {
-//     console.log(req.body)
-
-//     const student = new Student(req.body)
-//     await student.save();
-
-//     res.json({message:"Student added succesfully"})
-//     } catch (error) {
-//         res.json({error: error.message})
-//     }
-    
-// }
